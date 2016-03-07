@@ -76,6 +76,7 @@ public class RelayActivity extends Activity {
         startNpIntent.setComponent(new ComponentName(PACKAGE_NAME, PACKAGE_NAME + ACTIVITY));
         startNpIntent.setData(Uri.parse(url));
         startActivity(startNpIntent);
+        finish();
     }
 
     /**
