@@ -35,7 +35,7 @@ import java.util.HashSet;
 public class RelayActivity extends Activity {
 
     private static final String PACKAGE_NAME="org.schabi.newpipe";
-    private static final String ACTIVITY=".VideoItemDetailActivity";
+    private static final String ACTIVITY=".detail.VideoItemDetailActivity";
 
     /**
      * Removes invisible separators (\p{Z}) and punctuation characters including
